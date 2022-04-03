@@ -203,6 +203,6 @@ class NoteServiceTest {
         noteService.add("Title", "Text")
         noteService.createComment(1,1234,null,"message")
         noteService.deleteComment(1,1234)
-        noteService.restoreComment(1,1234)
+        noteService.restoreComment(1,1235)
     }
 }
