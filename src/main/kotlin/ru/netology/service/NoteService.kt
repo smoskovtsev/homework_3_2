@@ -56,7 +56,6 @@ class NoteService {
             throwNoteNotFoundException (noteId)
         }
         throw AddCommentException("Нельзя добавить комментарий к несуществующей заметке")
-        //return records.last().second.last().commentId
     }
 
     // Удаляет заметку текущего пользователя
@@ -141,7 +140,6 @@ class NoteService {
             return list
         }
         throw GetNoteException("Список заметок пуст!")
-        //return list
     }
 
     //  Возвращает заметку по её id.
